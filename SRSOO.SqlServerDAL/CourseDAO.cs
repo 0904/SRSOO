@@ -16,7 +16,8 @@ namespace SRSOO.SqlServerDAL
        {
            throw new NotImplementedException();
        }
-
+       //测试
+       //测试
        public Course GetCourse(string courseNumber)
        {
            string sql = "select * from Course where CourseNumber='{0}'".FormatWith(courseNumber);
